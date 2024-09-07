@@ -5,7 +5,7 @@ import shuffle from '../assets/shuffle.svg';
 
 export default function PlayControls () {
   return (
-    <div className='flex flex-row justify-between items-center h-[3rem] max-w-[25rem] mb-4'>
+    <div className='flex flex-row justify-between items-center h-[3rem] max-w-[42.9rem] md:max-w-[25rem] mb-4'>
       <button className="font-medium w-[2.5rem] h-[2.5rem] flex items-center justify-center">
         <p className='text-lg'>1x</p>
       </button>
