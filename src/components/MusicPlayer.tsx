@@ -29,7 +29,7 @@ export default function MusicPlayer() {
         </div>
       ) : (
       <>
-        <CurrentlyPlaying song={currentSong} />
+        <CurrentlyPlaying song={currentSong} playlist={playList} setCurrentSong={setCurrentSong} />
         {/* Vertical gray border */}
         <div className="border-b-2 border-deep-yellow w-full md:h-[40rem] md:w-0 md:border-l-2"></div>
         <Playlist playlist={playList} currentSong={currentSong} songSelected={setCurrentSong} />
