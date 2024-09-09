@@ -4,7 +4,7 @@ import play from '../assets/play.svg';
 import pause from '../assets/pause.svg';
 import forward from '../assets/forward.svg';
 import shuffle from '../assets/shuffle.svg';
-import { Song } from './types';
+import { Song } from './MusicPlayer';
 
 interface ControlProps {
   playlist: Song[];
