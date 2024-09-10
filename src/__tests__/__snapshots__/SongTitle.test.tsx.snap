@@ -1,0 +1,69 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SongTitle with title and artist passed 1`] = `
+<div>
+  <div>
+    <h2
+      class="font-bold leading-8 mb-2 text-2xl text-deep-yellow"
+    >
+      Tidal Drift
+    </h2>
+    <p
+      class="mb-4 text-wing-red"
+    >
+      Echoes of the Sea
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SongTitle with title and no artist passed 1`] = `
+<div>
+  <div>
+    <h2
+      class="font-bold leading-8 mb-2 text-2xl text-deep-yellow"
+    >
+      Tidal Drift
+    </h2>
+    <p
+      class="mb-4 text-wing-red"
+    >
+      Unknown Artist
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SongTitle with title and no artist passed 2`] = `
+<div>
+  <div>
+    <h2
+      class="font-bold leading-8 mb-2 text-2xl text-deep-yellow"
+    >
+      Unknown Title
+    </h2>
+    <p
+      class="mb-4 text-wing-red"
+    >
+      Echoes of the Sea
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SongTitle with title and no artist passed 3`] = `
+<div>
+  <div>
+    <h2
+      class="font-bold leading-8 mb-2 text-2xl text-deep-yellow"
+    >
+      Unknown Title
+    </h2>
+    <p
+      class="mb-4 text-wing-red"
+    >
+      Unknown Artist
+    </p>
+  </div>
+</div>
+`;

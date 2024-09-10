@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CoverArt renders correctly with api 1`] = `
+<div>
+  <div
+    class="flex max-h-[39.9rem] md:h-[25rem] max-w-[39.9rem] md:max-w-[25rem] mb-6"
+  >
+    <img
+      alt="Song Art"
+      src="https://raw.githubusercontent.com/atlas-jswank/atlas-music-player-api/main/images/albumn4.webp"
+    />
+  </div>
+</div>
+`;
+
+exports[`CoverArt renders correctly without api 1`] = `
+<div>
+  <div
+    class="flex max-h-[39.9rem] md:h-[25rem] max-w-[39.9rem] md:max-w-[25rem] mb-6"
+  >
+    <img
+      alt="Song Art"
+      src="/src/assets/placeholder.svg"
+    />
+  </div>
+</div>
+`;
