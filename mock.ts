@@ -3,7 +3,7 @@ import { http, HttpResponse } from "msw";
 
 export const handlers = [
   http.get(
-    "https://api.example.com/api/v1/data",
+    'https://raw.githubusercontent.com/atlas-jswank/atlas-music-player-api/main/playlist',
     () => {
       return HttpResponse.json([
         {

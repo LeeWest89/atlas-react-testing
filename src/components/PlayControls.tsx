@@ -65,14 +65,14 @@ export default function PlayControls({ playlist=[], currentSong, setCurrentSong}
       <button className="font-medium w-[2.5rem] h-[2.5rem] flex items-center justify-center" onClick={handleSpeed}>
         <p className='text-lg text-deep-yellow'>{speed}x</p>
       </button>
-      <button className="w-[2.5rem] h-[2.5rem] flex items-center justify-center" onClick={handleBack} disabled={isShuffle ? false : firstSong}>
-        <img src={!isShuffle && firstSong ? backwardDisabled : backward} alt="backward button" className="w-[1.5rem] h-[1.5rem]" />
+      <button className="w-[2.5rem] h-[2.5rem] flex items-center justify-center" onClick={handleBack} disabled={isShuffle ? false : firstSong} aria-label="backward button">
+        <img src={!isShuffle && firstSong ? backwardDisabled : backward} alt="backward icon" className="w-[1.5rem] h-[1.5rem]" />
       </button>
       <button className="rounded-lg border-[3px] border-deep-yellow w-[3.3rem] h-[3.3rem] flex items-center justify-center" onClick={handlePause}>
         <img src={playing ? pause : play} alt={play ? "pause button" : "play button"} className="w-[1.5rem] h-[1.5rem]" />
       </button>
-      <button className="w-[2.5rem] h-[2.5rem] flex items-center justify-center" onClick={handleForward} disabled={isShuffle ? false : lastSong}>
-        <img src={!isShuffle && lastSong ? forwardDisabled : forward} alt="forward button" className="w-[1.5rem] h-[1.5rem]" />
+      <button className="w-[2.5rem] h-[2.5rem] flex items-center justify-center" onClick={handleForward} disabled={isShuffle ? false : lastSong} aria-label="forward button">
+        <img src={!isShuffle && lastSong ? forwardDisabled : forward} alt="forward icon" className="w-[1.5rem] h-[1.5rem]" />
       </button>
       <button className="w-[2.5rem] h-[2.5rem] flex items-center justify-center" onClick={handleShuffle}>
         <img src={isShuffle ? activeShuffle : shuffle} alt="shuffle button" className="w-[1.5rem] h-[1.5rem]" />
